@@ -22,7 +22,7 @@ class Judge_page extends CI_Controller {
 	
 			$this->load->helper(array('form', 'url'));
 			$this->load->library('form_validation');		
-			$data['title'] = "Judge Login";
+			$data['title'] = "Judge Login 2";
 			$this->form_validation->set_rules('username', 'Username', 'required');
 			$this->form_validation->set_rules('password', 'Password', 'required');
 			$data['judgename'] = "";
